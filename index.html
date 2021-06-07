@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Loop 1 - Step 9</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="card">
+        <div class="card__wallet">
+          <h2 class="card__heading">My Wallets</h2>
+          <a href="#"><img class="plus" src="./img/plus.svg" alt="" /></a>
+          
+          <input type="radio" name="payment" id="visa" />
+          <label for="visa" class="card-label">
+              <img src="./img/visa.svg" width="68" height="38" alt="" />
+              <p class="card__number">**** **** **** 2562</p>
+              <p class="card__text">Valid thru: 12/17</p>
+          </label>
+          <input type="radio" name="payment" id="mastercard" />
+          <label for="mastercard" class="card-label mastercard">
+              <img src="./img/mastercard.svg" width="68" height="38" alt="" />
+              <p class="card__number">**** **** **** 2101</p>
+              <p class="card__text">Valid thru: 07/19</p>
+          </label>
+          <input type="radio" name="payment" id="maestro" />
+          <label for="maestro" class="card-label mastercard">
+              <img src="./img/maestro.svg" width="68" height="38" alt="" />
+              <p class="card__number">**** **** **** 8335</p>
+              <p class="card__text">Valid thru: 09/17</p>
+          </label>
+        </div>
+        <div class="card__balance">
+          <div class="card-balance__top">
+            <h2 class="card__heading">Current Balance</h2>
+            <p class="sum">$729. <sup>00</sup></p>
+          </div>
+          <hr class="line" />
+          <div class="payment-history">
+            <img class="minus" src="./img/minus.svg" width="19" alt="" />
+            <span>
+              <p class="payment-history__heading">Apple iPhone 7, 128 GB</p>
+              <p class="payment-history__text">
+                Electronics #32343424 - 12 July 2015
+              </p>
+            </span>
+            <p class="payment-history__sum">$650. <sup>00</sup></p>
+          </div>
+
+          <div class="payment-history">
+            <img class="minus" src="./img/plus.svg" width="19" alt="" />
+            <span>
+              <p class="payment-history__heading">Funds Added</p>
+              <p class="payment-history__text">
+                Payment #5435 - 11 July 2015
+              </p>
+            </span>
+            <p class="payment-history__sum payment-history__sum--active">$900. <sup>00</sup></p>
+          </div>
+
+          <div class="payment-history">
+            <img class="minus" src="./img/minus.svg" width="19" alt="" />
+            <span>
+              <p class="payment-history__heading">Energy Bill</p>
+              <p class="payment-history__text">
+                Other #745237423 - 11 July 2015
+              </p>
+            </span>
+            <p class="payment-history__sum">$84. <sup>90</sup></p>
+          </div>
+
+          <div class="payment-history">
+            <img class="minus" src="./img/minus.svg" width="19" alt="" />
+            <span>
+              <p class="payment-history__heading">The Eye Cinema Ticket</p>
+              <p class="payment-history__text">
+                Entertainment #32343424 - 10 July 2015
+              </p>
+            </span>
+            <p class="payment-history__sum">$40. <sup>00</sup></p>
+          </div>
+
+          <div class="payment-history">
+            <img class="minus" src="./img/minus.svg" width="19" alt="" />
+            <span>
+              <p class="payment-history__heading">McFood Restaurant</p>
+              <p class="payment-history__text">
+                Cafes #32448 - 10 July 2015
+              </p>
+            </span>
+            <p class="payment-history__sum">$10. <sup>50</sup></p>
+          </div>
+
+          <div class="payment-history">
+            <img class="minus" src="./img/minus.svg" width="19" alt="" />
+            <span>
+              <p class="payment-history__heading">Gas Station</p>
+              <p class="payment-history__text">
+                Other #2138453 - 10 July 2015
+              </p>
+            </span>
+            <p class="payment-history__sum">$30. <sup>00</sup></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
